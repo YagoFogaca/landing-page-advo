@@ -185,6 +185,13 @@ img.container-img--avatar {
 }
 
 @media (max-width: 525px) {
+  article.header-banner--infos {
+    align-items: stretch;
+  }
+  button.btn-contact {
+    justify-content: center;
+  }
+
   h1.title {
     font-size: 3.2rem;
     text-align: center;
