@@ -98,7 +98,91 @@ button.btn-contact svg {
   margin-right: 25px;
 }
 
+/* Seção do Sobre */
+
+section.section {
+  padding: 20px 30px;
+  margin-top: 45px;
+}
+
+article.article-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 35px;
+}
+
+div.container-title {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+div.line-title {
+  width: 10px;
+  height: 42px;
+  background-color: #242121;
+  margin-right: 25px;
+}
+
+h3.title-section {
+  font-size: 4.2rem;
+  text-transform: uppercase;
+}
+
+div.container-infos {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.container-texts {
+  width: 45%;
+}
+
+p.container-texts--paragraph {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+figure.container-img {
+  width: 45%;
+  max-width: 675px;
+  min-width: 245px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+img.container-img--avatar {
+  width: 100%;
+}
+
 /* Reponsivo  */
+
+@media (max-width: 1024px) {
+  div.container-title {
+    justify-content: center;
+  }
+
+  div.container-infos {
+    justify-content: center;
+  }
+
+  div.container-texts {
+    width: 85%;
+  }
+
+  figure.container-img {
+    width: 55%;
+    max-width: 675px;
+    min-width: 245px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+}
 
 @media (max-width: 525px) {
   h1.title {
@@ -110,5 +194,10 @@ button.btn-contact svg {
   p.paragraph {
     font-size: 1.7rem;
     text-align: center;
+  }
+
+  h3.title-section {
+    font-size: 2.8rem;
+    text-transform: uppercase;
   }
 }
