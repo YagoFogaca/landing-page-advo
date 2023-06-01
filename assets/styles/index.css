@@ -276,8 +276,12 @@ button.btn-doubts i {
 
 div.doubts-answers {
   width: 100%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 200ms ease-in;
 
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
