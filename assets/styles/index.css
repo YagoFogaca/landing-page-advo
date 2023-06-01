@@ -168,6 +168,8 @@ img.container-img--avatar {
 /* Seção Especialidades */
 
 div.container-specialties {
+  margin-top: 60px;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
